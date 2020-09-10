@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>プロフィール</h3>
+<form action="/add/" method="POST">
+    ID：<input type="text" name="id">
+    名前：<input type="text" name="name">
+    年齢：<input type="text" name="age">
+    性別：<input type="text" name="sex">
+    <input type="submit" name="" value="追加">
+</form>
+{% endblock %}

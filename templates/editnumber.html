@@ -1,0 +1,8 @@
+{% extends "layoutnumber.html" %}
+{% block content %}
+<h3>Number</h3>
+<form action="update" method="POST">
+    Number: <input="text" number="number" value={{user.number}}>
+    <input type="submit" number="" value="更新">
+</form>
+{% endblock %}
